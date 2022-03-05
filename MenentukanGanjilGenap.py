@@ -7,3 +7,4 @@ if angka % 2 == 0 :
 
 if angka % 2 == 1 :
     print("angka ", angka ," yang  adalah bilangan ganjil")
+    
