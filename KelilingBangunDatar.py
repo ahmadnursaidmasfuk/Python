@@ -1,5 +1,4 @@
 # Progam menentukan keliling bangun datar
-
 class BangunDatar:
     def __init__(self, name):
         self.name = name
