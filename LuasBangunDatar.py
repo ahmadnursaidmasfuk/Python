@@ -51,8 +51,8 @@ class BangunDatar:
         return luas
        
 
-bangun_item1 = BangunDatar('Persegi')
-bangun_item2 = BangunDatar('Persegi Panjang')
+bangun_item1 = BangunDatar('Persegi Panjang')
+bangun_item2 = BangunDatar('Persegi')
 bangun_item3 = BangunDatar('Segitiga')
 bangun_item4 = BangunDatar('Trapesium')
 bangun_item5 = BangunDatar('Jajar Genjang')
