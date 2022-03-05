@@ -1,3 +1,8 @@
+# progam conversi satuan suhu
+
+# Progam konversi suhu menggunakan OOP (object Oriented Programming) dengan bahasa pemrograman python.
+# Progam ini dapat mengkonversi suhu celsius, kelvin, reamur dan fahrenheit sesuai input yang dimasukkan
+
 class Suhu :
     def __init__(self,name):
         self.name=name
