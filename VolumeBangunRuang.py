@@ -14,41 +14,41 @@ class BangunRuang:
             sisi=float(input("masukkan nilai sisi bangun: "))
             volume = sisi*sisi*sisi
         # mencari volume balok
-        if order == 1 :
+        elif order == 1 :
             panjang=float(input("masukkan nilai panjang bangun: "))
             lebar=float(input("masukkan nilai lebar bangun: "))
             tinggi=float(input("masukkan nilai tinggi bangun: "))
             volume = panjang*lebar*tinggi
         # mencari volume prisma
-        if order == 2 :
+        elif order == 2 :
             alas_segitiga=float(input("masukkan nilai alas segitiga alas bangun: "))
             tinggi_segitiga=float(input("masukkan nilai tinggi segitiga alas bangun: "))
             tinggi=float(input("masukkan nilai tinggi bangun: "))
             volume = alas_segitiga*tinggi_segitiga*tinggi/2
         # mencari volume limas segitiga
-        if order == 3 :
+        elif order == 3 :
             alas_segitiga=float(input("masukkan nilai alas segitiga alas bangun: "))
             tinggi_segitiga=float(input("masukkan nilai tinggi segitiga alas bangun: "))
             tinggi=float(input("masukkan nilai tinggi bangun: "))
             volume = (alas_segitiga*tinggi_segitiga/2)*tinggi/3
         # mencari volume jajar segiempat
-        if order == 4 :
+        elif order == 4 :
             panjang_alas=float(input("masukkan nilai panjang alas bangun: "))
             lebar_alas=float(input("masukkan nilai lebar alas bangun: "))
             tinggi=float(input("masukkan nilai tinggi bangun: "))
             volume = (panjang_alas*lebar_alas)*tinggi/3
         # mencari volume tabung
-        if order == 5 :
+        elif order == 5 :
             jari_jari=float(input("masukkan nilai jari -jari bangun: "))
             tinggi=float(input("masukkan nilai tinggi bangun: "))
             volume = (3.14*jari_jari*jari_jari)*tinggi
         # mencari volume kerucut
-        if order == 6 :
+        elif order == 6 :
             jari_jari=float(input("masukkan nilai jari -jari bangun: "))
             tinggi=float(input("masukkan nilai tinggi bangun: "))
             volume = (3.14*jari_jari*jari_jari)*tinggi/3
         # mencari volume bola
-        if order == 7 :
+        elif order == 7 :
             jari_jari=float(input("masukkan nilai jari - jari bangun: "))
             volume = 3.14*jari_jari*jari_jari*4/3
 
