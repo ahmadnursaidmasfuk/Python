@@ -6,51 +6,62 @@ class Suhu :
         return self.name
    
     def konversi(self, order1, order2):
-        
+        # konversi suhu celsius ke reamur
         if order1 == 0 and order2 == 1:
             suhu_awal=float(input("Masukkan nilai suhu: "))
             suhu_akhir=4/5*suhu_awal
         
+        # konversi suhu celsius ke fahrenheit
         elif order1 == 0 and order2 == 2:
             suhu_awal=float(input("Masukkan nilai suhu: "))
             suhu_akhir=9/5*suhu_awal+32
 
+        # konversi suhu celsius ke kelvin
         elif order1 == 0 and order2 == 3:
             suhu_awal=float(input("Masukkan nilai suhu: "))
             suhu_akhir=suhu_awal+273
-        
+
+        # konversi suhu reamur ke celsius
         elif order1 == 1 and order2 == 0:
             suhu_awal=float(input("Masukkan nilai suhu: "))
             suhu_akhir=5/4*suhu_awal
         
+        # konversi suhu reamur ke fahrenheit
         elif order1 == 1 and order2 == 2:
             suhu_awal=float(input("Masukkan nilai suhu: "))
             suhu_akhir=9/4*suhu_awal+32
 
+        # konversi suhu reamur ke kelvin
         elif order1 == 1 and order2 == 3:
             suhu_awal=float(input("Masukkan nilai suhu: "))
             suhu_akhir=9/5*suhu_awal+273
 
+        # konversi suhu fahrenheit ke celsius
         elif order1 == 2 and order2 == 0:
             suhu_awal=float(input("Masukkan nilai suhu: "))
             suhu_akhir=(suhu_awal-32)*5/9
         
+        # konversi suhu fahrenheit ke reamur
         elif order1 == 2 and order2 == 1:
             suhu_awal=float(input("Masukkan nilai suhu: "))
             suhu_akhir=(suhu_awal-32)*4/9
 
+        # konversi suhu fahrenheit ke kelvin
         elif order1 == 2 and order2 == 3:
             suhu_awal=float(input("Masukkan nilai suhu: "))
             suhu_akhir=(suhu_awal-32+273)*5/9
         
+        # konversi suhu kelvin ke celsius
         elif order1 == 3 and order2 == 0:
             suhu_awal=float(input("Masukkan nilai suhu: "))
             suhu_akhir=suhu_awal-273
         
+        # konversi suhu kelvin ke reamur
         elif order1 == 3 and order2 == 1:
             suhu_awal=float(input("Masukkan nilai suhu: "))
             suhu_akhir=(suhu_awal-273)*4/5
 
+        # konversi suhu kelvin ke fahrenheit
         elif order1 == 3 and order2 == 2:
             suhu_awal=float(input("Masukkan nilai suhu: "))
             suhu_akhir=(suhu_awal-273+32)*9/5
@@ -60,7 +71,7 @@ class Suhu :
 
 suhu_item1=Suhu("Celcius")
 suhu_item2=Suhu("Reamur")
-suhu_item3=Suhu("Farenheit")
+suhu_item3=Suhu("Fahrenheit")
 suhu_item4=Suhu("Kelvin")
 
 suhu_items=[suhu_item1,suhu_item2,suhu_item3,suhu_item4]
