@@ -1,14 +1,15 @@
 # Progam menentukan keliling bangun datar
 
-# Progam mencari keliling bangun datar menggunakan OOP (Object Oriented Programming) dengan menggunakan bahasa pemrograman python. Keliling bangun datar yang dapat dicari adalah :
-# 1. Persegi panjang
-# 2. Persegi
-# 3. Segitiga
-# 4. Trapesium
-# 5. Jajar genjang
-# 6. Layang - layang
-# 7. Belah ketupat
-# 8. Lingkaran
+'''Progam mencari keliling bangun datar menggunakan OOP (Object Oriented Programming) dengan menggunakan bahasa 
+pemrograman python. Keliling bangun datar yang dapat dicari adalah :
+1. Persegi panjang
+2. Persegi
+3. Segitiga
+4. Trapesium
+5. Jajar genjang
+6. Layang - layang
+7. Belah ketupat
+8. Lingkaran'''
 
 class BangunDatar:
     def __init__(self, name):

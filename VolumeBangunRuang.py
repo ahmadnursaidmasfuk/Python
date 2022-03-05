@@ -1,14 +1,15 @@
 # Progam menentukan volume bangun ruang
 
-# Progam mencari volume bangun ruang menggunakan OOP (Object Oriented Programming) dengan menggunakan bahasa pemrograman python. Volume bangun ruang yang dapat dicari adalah :
-# 1. Kubus
-# 2. Balok
-# 3. Prisma
-# 4. Limas segitiga
-# 5. Limas segiempat
-# 6. Tabung
-# 7. Kerucut
-# 8. Bola
+'''Progam mencari volume bangun ruang menggunakan OOP (Object Oriented Programming) dengan menggunakan bahasa 
+pemrograman python. Volume bangun ruang yang dapat dicari adalah :
+1. Kubus
+2. Balok
+3. Prisma
+4. Limas segitiga
+5. Limas segiempat
+6. Tabung
+7. Kerucut
+8. Bola'''
 
 class BangunRuang:
     def __init__(self, name):
