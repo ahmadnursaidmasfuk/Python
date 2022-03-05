@@ -15,38 +15,38 @@ class BangunDatar:
             lebar=float(input("masukkan nilai lebar bangun: "))
             keliling = (panjang+lebar)*2
         # mencari keliling persegi
-        if order == 1 :
+        elif order == 1 :
             sisi=float(input("masukkan nilai sisi bangun: "))
             keliling = sisi*4
         # mencari keliling segitiga
-        if order == 2 :
+        elif order == 2 :
             a=float(input("masukkan nilai sisi pertama bangun: "))
             b=float(input("masukkan nilai sisi kedua bangun: "))
             c=float(input("masukkan nilai sisi ketiga bangun: "))
             keliling = a + b + c
         # mencari keliling trapesium
-        if order == 3 :
+        elif order == 3 :
             sisi_sejajar_atas=float(input("masukkan nilai sisi sejajar atas bangun: "))
             sisi_sejajar_bawah=float(input("masukkan nilai sisi sejajar bawah bangun: "))
             sisi_kiri=float(input("masukkan nilai sisi kiri bangun: "))
             sisi_kanan=float(input("masukkan nilai sisi kanan bangun: "))
             keliling = sisi_sejajar_atas + sisi_sejajar_bawah + sisi_kiri + sisi_kanan 
         # mencari keliling jajar genjang
-        if order == 4 :
+        elif order == 4 :
             sejajar=float(input("masukkan nilai sisi sejajar bangun: "))
             miring=float(input("masukkan nilai sisi miring bangun: "))
             keliling = 2*(sejajar+miring)
         # mencari keliling layang - layang
-        if order == 5 :
+        elif order == 5 :
             miring_atas=float(input("masukkan nilai sisi miring atas bangun: "))
             miring_bawah=float(input("masukkan nilai sisi miring bawah bangun: "))
             keliling = 2*(miring_bawah+miring_atas)
         # mencari keliling belah ketupat
-        if order == 6 :
+        elif order == 6 :
             miring=float(input("masukkan nilai sisi miring bangun: "))
             keliling = 4*miring
         # mencari keliling lingkarang
-        if order == 7 :
+        elif order == 7 :
             jari_jari=float(input("masukkan nilai jari - jari bangun: "))
             keliling = 3.14*2*jari_jari
 
