@@ -79,4 +79,4 @@ print('--------------------')
 
 result = selected_bangun.luas(order)
 
-print('Luas bangun datar adalah: '+str(result))
+print('Luas bangun datar ',selected_bangun.name,' adalah: ',str(result))
